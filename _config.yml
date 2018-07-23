@@ -214,19 +214,18 @@ plugins:
 #################
 
 # Site title
-title: Your awesome title
+title: Portugol Online
 
 # Site description
 description: > # this means to ignore newlines until the text ends
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    Ambiente de desenvolvimento integrado que suporta a linguagem Portugol,
+    inspirada no livro Fundamentos da Programação de Computadores
 
 # Default site image
 # Image used as a default thumbnail for pages and posts which do not have an
 # thumbnail explicitly set by the front matter image variable.
 # Default: not set (no image is displayed if an image is not explicitly set)
-image: "/assets/favicons/android-chrome-192x192.png"
+image: "/apple-touch-icon.png"
 
 # Site language
 # A language tag following the language tag syntax (IETF's BCP 47). This is
