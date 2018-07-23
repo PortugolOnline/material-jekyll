@@ -22,15 +22,15 @@
 author:
     # Site's author name
     # Default: not set (author name is not displayed)
-    name: Your awesome name
+    name: "Antônio Vinícius"
 
     # Site's author email
     # Default: not set (author email is not displayed)
-    email: your-email@yourdomain.com
+    # email: your-email@yourdomain.com
 
     # Site's author website, profile
     # Default: not set (author site is not displayed)
-    site: http://yourdomain.com
+    site: "https://vinyanalista.github.io"
 
 ############
 # Building #
@@ -96,7 +96,7 @@ google:
     # Google Analytics Property ID
     # Allows tracking site pageviews and other events using Google Analytics.
     # Default: not set (Google Analytics is not used to track site pageviews)
-    # analytics_property_id: UA-12345678-9
+    analytics_property_id: "UA-65333685-4"
 
     # If you do not know your Property ID, take a look at
     # https://support.google.com/analytics/answer/1032385
@@ -108,7 +108,7 @@ google:
     # Allows visitors to search the website without leaving it, using a custom
     # search engine powered by Google.
     # Default: not set (instead of a CSE, Google is used to handle searching)
-    # cse_id: 123456789012345678901:abcdefghijk
+    cse_id: "006707575509905065349:1bv1jwddlt0"
 
     # If you do not know your CSE ID, take a look at
     # https://support.google.com/customsearch/answer/2649143
@@ -122,7 +122,7 @@ google:
         # Google AdSense publisher ID
         # Your publisher ID is the unique identifier for your AdSense account.
         # Default: not set (Google AdSense is not used to show ads)
-        # publisher_id: ca-pub-1234567890123456
+        publisher_id: "ca-pub-5193467168351289"
 
         # If you do not know your publisher ID, take a look at
         # https://support.google.com/adsense/answer/105516
@@ -131,17 +131,17 @@ google:
         # the title, if in a page or post, or after the first post, if in a post
         # listing
         # Default: not set (no ad is displayed at the top)
-        # content_ad_unit_1: 1234567890
+        content_ad_unit_1: "4067282653"
 
         # Ad unit ID for the ad displayed inside the page content, randomly
         # placed between paragraphs, if in a page or post, or between posts, if
         # in a post listing
         # Default: not set (no ad is displayed in the page content)
-        # content_ad_unit_2: 0987654321
+        content_ad_unit_2: "5544015856"
 
         # Ad unit ID for the ad displayed in the sidebar
         # Default: not set (no ad is displayed in the sidebar)
-        # sidebar_ad_unit: 1231231231
+        sidebar_ad_unit: "7020749050"
 
         # Note: use only responsive ad units
 
@@ -154,11 +154,11 @@ google:
 
 # Specifies how many items should be displayed per page
 # Default: not set (pagination disabled)
-# paginate: 10
+paginate: 10
 
 # You may also specify the destination of the pagination pages
 # Default: /page:num (for example, /page2, /page3, etc)
-# paginate_path: "/blog/page/:num/"
+paginate_path: "/blog/pagina/:num/"
 
 # For more info on pagination, please refer to
 # http://jekyllrb.com/docs/pagination/
@@ -189,13 +189,13 @@ plugins:
 # Site URL
 # The base protocol and hostname for the website
 # Default: not set (this variable is only necessary for external systems)
-# url: "https://yourdomain.com"
+url: "https://portugolonline.github.io"
 
 # Enforce the use of HTTPS on production domain
 # The hostname (does not include protocol, just the domain) for which the use of
 # HTTPS should be enforced
 # Default: not set (the use of HTTPS is never enforced)
-# enforce_https: "yourdomain.com"
+enforce_https: "portugolonline.github.io"
 
 ###########
 # Serving #
@@ -204,7 +204,7 @@ plugins:
 # Base URL
 # Serve the website from the given base URL (does not include hostname)
 # Default: "" (website is at the root of the domain)
-# baseurl: ""
+baseurl: ""
 
 # For more info on the serve command options, please refer to
 # http://jekyllrb.com/docs/configuration/
@@ -231,7 +231,7 @@ image: "/apple-touch-icon.png"
 # A language tag following the language tag syntax (IETF's BCP 47). This is
 # meant to assist search engines and browsers.
 # Default: not set (do not associate any language with this site's content)
-lang: en
+lang: pt
 
 # For more info on language tags, please refer to
 # http://www.w3.org/International/articles/language-tags/
@@ -256,7 +256,7 @@ lang: en
 # website with social networks. An AddThis profile contains configuration options
 # and analytics data for a website.
 # Default: not set (AddThis is not used to handle social networks integration)
-# addthis_profile_id: "ra-example123456789"
+addthis_profile_id: "ra-55745c3c669f5f24"
 
 # If you do not know your AddThis profile ID, you can find it at
 # https://www.addthis.com/settings/publisher
@@ -271,7 +271,7 @@ lang: en
 # only your site's comments, as well as the settings specified in your Disqus
 # admin.
 # Default: not set (do not use Disqus to handle comments)
-# disqus_shortname: "my_disqus_shortname"
+disqus_shortname: "portugol"
 
 # If you do not know your Disqus shortname, take a look at
 # https://help.disqus.com/customer/portal/articles/466208
@@ -293,7 +293,7 @@ facebook:
     # Facebook Page ID
     # If your site has a corresponding Facebook Page, inform its ID here
     # Example: 123456, if your page is at https://facebook.com/Page-Name/123456
-    # page_id: 1234567890123456
+    page_id: "126719584585474"
 
     # For more info on Facebook Pages, please refer to
     # https://www.facebook.com/about/pages
@@ -303,7 +303,7 @@ facebook:
     # username, if your profile is at https://facebook.com/username or
     # Page-Name/123456, if your page is at https://facebook.com/Page-Name/123456
     # Default: not set (Facebook URL is not displayed)
-    # username: "username"
+    username: "PortugolOnline"
 
 # Foursquare username
 # Example: username, if your Foursquare URL is https://foursquare.com/username
@@ -313,13 +313,13 @@ facebook:
 # GitHub username
 # Example: jekyll, if your GitHub URL is https://github.com/jekyll
 # Default: not set (GitHub URL is not displayed)
-github_username: "jekyll"
+github_username: "PortugolOnline"
 
 # Google Plus user ID
 # Example: 123456789098765432123, if your Google Plus URL is
 # https://plus.google.com/123456789098765432123
 # Default: not set (Google Plus URL is not displayed)
-# google_plus_user_id: 123456789098765432123
+google_plus_user_id: "100310911563310549963"
 
 # LinkedIn username
 # Example: username, if your LinkedIn public profile URL is
@@ -330,12 +330,12 @@ github_username: "jekyll"
 # Twitter username
 # Example: jekyllrb, if your Twitter URL is https://twitter.com/jekyllrb
 # Default: not set (Twitter URL is not displayed)
-twitter_username: "jekyllrb"
+twitter_username: "PortugolOnline"
 
 youtube:
     # What kind of YouTube profile you have (it can be "user" or "channel")
     # Default: not set (YouTube URL is not displayed)
-    # profile: "user"
+    profile: "channel"
 
     # YouTube user or channel name
     # Examples:
@@ -344,7 +344,7 @@ youtube:
     # channelname, if your YouTube channel is at
     # https://www.youtube.com/channel/channelname
     # Default: not set (YouTube URL is not displayed)
-    # name: "username"
+    name: "UC3op6merEmHdCrQ-YbYanlg"
 
 #####################
 # YAML Front Matter #
@@ -359,6 +359,7 @@ defaults:
             # Allows one to use {{ page.is_post }} to check whether the page is
             # a post, as seen on http://stackoverflow.com/a/23555679/1657502
             is_post: true
+            permalink: "/blog/:year/:month/:day/:title/"
 
 # For more info on YAML Front Matter and its configuration, please refer to
 # https://jekyllrb.com/docs/frontmatter/
