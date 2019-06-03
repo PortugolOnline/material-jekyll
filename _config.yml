@@ -26,7 +26,7 @@ author:
 
     # Site's author email
     # Default: not set (author email is not displayed)
-    # email: your-email@yourdomain.com
+    email: vinyanalista@gmail.com
 
     # Site's author website, profile
     # Default: not set (author site is not displayed)
@@ -80,6 +80,13 @@ exclude:
 # to create custom renderers, please refer to
 # http://jekyllrb.com/docs/configuration/#markdown-options
 
+# Default line numbering on syntax highlighting
+# https://github.com/jekyll/jekyll/issues/4619
+kramdown:
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
+
 # Permalink
 # Set the site’s URLs style
 # Default: date
@@ -122,7 +129,7 @@ google:
         # Google AdSense publisher ID
         # Your publisher ID is the unique identifier for your AdSense account.
         # Default: not set (Google AdSense is not used to show ads)
-        publisher_id: "ca-pub-5193467168351289"
+        publisher_id: "pub-5193467168351289"
 
         # If you do not know your publisher ID, take a look at
         # https://support.google.com/adsense/answer/105516
@@ -253,8 +260,8 @@ lang: pt
 
 # AddThis profile ID
 # AddThis is a content sharing platform. It can be used to better integrate the
-# website with social networks. An AddThis profile contains configuration options
-# and analytics data for a website.
+# website with social networks. An AddThis profile contains configuration
+# options and analytics data for a website.
 # Default: not set (AddThis is not used to handle social networks integration)
 addthis_profile_id: "ra-55745c3c669f5f24"
 
